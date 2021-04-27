@@ -5,7 +5,7 @@
     @change="$emit('update:modelValue', $event.target.checked)"
     class="field"
   />
-  <label v-if="label">{{lable}}</label>
+  <label v-if="label">{{ label }}</label>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
   props: {
     label: {
       type: String,
-      default: ""
+      default: ''
     },
     modelValue: {
       type: Boolean,

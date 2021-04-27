@@ -3,7 +3,6 @@ import App from './App.vue'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 
-// auto import components
 const requireComponent = require.context(
   './components',
   false,
